@@ -13,7 +13,7 @@ def linear_search(key, L):
 
 
 def get_parser():
-    parser = argparse.ArgumentParser(description='Data visualization')
+    parser = argparse.ArgumentParser(description='Get Gene Counts')
 
     parser.add_argument('--file_name', type=str, default='',
                         help='sample_attributes file path')
